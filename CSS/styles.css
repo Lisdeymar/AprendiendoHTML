@@ -1,0 +1,68 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+p{
+    color:blue;
+}
+
+.navegacion{
+    color: red;
+    /*display: block;
+    display: inline;*/
+    display: inline-block;
+}
+
+#pais{
+    width: 200px;
+    height: 50px;
+}
+
+input{
+    color: green;
+}
+
+div{
+    border: 1px dashed #2dcdf5;
+    border-bottom: 1px solid blue;
+    /*border-color: blue;
+    border-width: 3px;
+    border-style: solid;*/
+    padding: 10px; /*aplica 10px a cada lado*/
+    /*padding: 20px 50px; /*aplica 20px arriba y abajo y 50px a los costados*/
+    /*padding: 20px 20px 50px 70px; /*como las manecillas del reloj*/
+    /*padding-top:
+    padding-right: 
+    padding-bottom:
+    padding-left:*/
+    margin-bottom: 10px;
+    width: 300px; /*para quitar el espacio hasta el final de las cajas*/
+}
+
+#principal{
+    color: green;
+    background-color: black; /*para pintar el fondo de la caja*/
+    padding: 15px;
+    font-style: italic; /*para inclinar la letra*/
+    font-family: 'Moon Dance', cursive;
+}
+
+.botonSubmit{
+    width: 80px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.botonSubmit:hover{
+    background-color: rgb(130, 238, 130);
+    cursor: pointer;
+}
+
+/*.titulo{
+    color: red;
+}*/
+
