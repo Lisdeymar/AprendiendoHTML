@@ -62,6 +62,18 @@ div{
     cursor: pointer;
 }
 
+.numeros > li{
+    color: rgb(206, 150, 30);
+}
+
+.navegacion.especial{
+    color: purple;
+}
+
+.navegacion.especial, #principal{
+    color: purple;
+}
+
 /*.titulo{
     color: red;
 }*/

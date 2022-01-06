@@ -5,11 +5,15 @@
             Hola Mundo!
         </title>
         <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <nav>
             <ul>
-                <li class="navegacion">
+                <li class="navegacion especial">
                     Home
                 </li>
                 <li class="navegacion">
@@ -18,9 +22,9 @@
             </ul>
         </nav>
         <article></article>
-        
+
         <section>
-            <h1>
+            <h1 id="principal" class="titulo">
                 Título principal
             </h1>
             <h2>
@@ -36,7 +40,7 @@
         <p>
             The Lorem Ipsum Generator quickly delivers default text to complement your amazing design. The default settings are optimized to be used right after installation, but you can easily customize a few settings to get the perfect text for your taste. Each sentence is randomly generated to simulate real text.
         </p>
-        <ol>
+        <ol class="numeros">
             <li>
                 Primero
             </li>
@@ -78,6 +82,7 @@
                     </label>
                     <input type="password" name="password-usuario" id="password-usuario" /> 
                 </div>
+                <div>
                 <label for="películaMatrix">
                     Matrix:
                 </label>
@@ -90,6 +95,7 @@
                     Thor:
                 </label>
                 <input type="radio" name="películas" id="películaThor" />
+                </div>
                 <div>
                     <label for="tomate">
                         Tomate:
@@ -105,17 +111,19 @@
                     <input type="checkbox" name="verduras" id="ejote" />
                 </div>
                 <div>
-                    <label for="país">
+                    <label for="pais">
                         País:
                     </label>
-                    <select id="país" name="país">
+                    <select id="pais" name="pais">
                         <option value="peru">
                             Perú
                         </option>
                         <option value="mexico">
                             México
-                            <option value="ecuador">
+                        </option>
+                        <option value="ecuador">
                             Ecuador
+                        </option>
                     </select>
                 </div>
                 <div>
@@ -124,7 +132,7 @@
                     </label>
                     <textarea id="comentario" name="comentario"></textarea>
                 </div>
-                <button type="submit">
+                <button type="submit" class="botonSubmit">
                     Enviar
                 </button>
             </form>
