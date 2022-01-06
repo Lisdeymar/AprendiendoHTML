@@ -1,5 +1,5 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
         <title>
             Hola Mundo!
@@ -7,15 +7,29 @@
         <meta charset="UTF-8" />
     </head>
     <body>
-        <h1>
-            Título principal
-        </h1>
-        <h2>
-            Subtítulo
-        </h2>
-        <h6>
-            Subtítulo muy pequeño
-        </h6>
+        <nav>
+            <ul>
+                <li class="navegacion">
+                    Home
+                </li>
+                <li class="navegacion">
+                    About
+                </li>
+            </ul>
+        </nav>
+        <article></article>
+        
+        <section>
+            <h1>
+                Título principal
+            </h1>
+            <h2>
+                Subtítulo
+            </h2>
+            <h6>
+                Subtítulo muy pequeño
+            </h6>
+        </section>
         <p>
             The Lorem Ipsum Generator quickly delivers default text to complement your amazing design. The default settings are optimized to be used right after installation, but you can easily customize a few settings to get the perfect text for your taste. Each sentence is randomly generated to simulate real text.
         </p>
@@ -44,82 +58,87 @@
                 Tercero
             </li>
         </ul>
-        <form>
-            <div>
-                <label for="nombre-usuario">
-                    Nombre:
+        <main>
+            <form>
+                <div>
+                    <label for="nombre-usuario">
+                        Nombre:
+                    </label>
+                    <input type="text" name="nombre-usuario" id="nombre-usuario" />
+                </div>
+                <div>
+                    <label for="apellido-usuario">
+                        Apellido:
+                    </label>
+                    <input type="text" name="apellido-usuario" id="apellido-usuario" />
+                </div>
+                <div>
+                    <label for="password-usuario">
+                        Contraseña:
+                    </label>
+                    <input type="password" name="password-usuario" id="password-usuario" /> 
+                </div>
+                <label for="películaMatrix">
+                    Matrix:
                 </label>
-                <input type="text" name="nombre-usuario" id="nombre-usuario" />
-            </div>
-            <div>
-                <label for="apellido-usuario">
-                    Apellido:
+                <input type="radio" name="películas" id="películaMatrix" />
+                <label for="películaSpiderman">
+                    Spiderman:
                 </label>
-                <input type="text" name="apellido-usuario" id="apellido-usuario" />
-            </div>
-            <div>
-                <label for="password-usuario">
-                    Contraseña:
+                <input type="radio" name="películas" id="películaSpiderman" />
+                <label for="películaThor">
+                    Thor:
                 </label>
-                <input type="password" name="password-usuario" id="password-usuario" /> 
-            </div>
-            <label for="películaMatrix">
-                Matrix:
-            </label>
-            <input type="radio" name="películas" id="películaMatrix" />
-            <label for="películaSpiderman">
-                Spiderman:
-            </label>
-            <input type="radio" name="películas" id="películaSpiderman" />
-            <label for="películaThor">
-                Thor:
-            </label>
-            <input type="radio" name="películas" id="películaThor" />
-            <div>
-                <label for="tomate">
-                    Tomate:
-                </label>
-                <input type="checkbox" name="verduras" id="tomate" />
-                <label for="lechuga">
-                    Lechuga:
-                </label>
-                <input type="checkbox" name="verduras" id="lechuga" />
-                <label for="ejote">
-                    Ejote:
-                </label>
-                <input type="checkbox" name="verduras" id="ejote" />
-            </div>
-            <div>
-                <label for="país">
-                    País:
-                </label>
-                <select id="país" name="país">
-                    <option value="peru">
-                        Perú
-                    </option>
-                    <option value="mexico">
-                        México
-                        <option value="ecuador">
-                        Ecuador
-                </select>
-            </div>
-            <div>
-                <label for="comentario">
-                    Deja tu comentario:
-                </label>
-                <textarea id="comentario" name="comentario"></textarea>
-            </div>
-            <button type="submit">
-                Enviar
-            </button>
-            <img src="./Imágenes/Tingo-Maria-web.png" />
-            <a href="https://www.google.com"> 
-                Google 
-            </a>
-            <a href="./about.html">
-                Ir about
-            </a>
-        </form>
+                <input type="radio" name="películas" id="películaThor" />
+                <div>
+                    <label for="tomate">
+                        Tomate:
+                    </label>
+                    <input type="checkbox" name="verduras" id="tomate" />
+                    <label for="lechuga">
+                        Lechuga:
+                    </label>
+                    <input type="checkbox" name="verduras" id="lechuga" />
+                    <label for="ejote">
+                        Ejote:
+                    </label>
+                    <input type="checkbox" name="verduras" id="ejote" />
+                </div>
+                <div>
+                    <label for="país">
+                        País:
+                    </label>
+                    <select id="país" name="país">
+                        <option value="peru">
+                            Perú
+                        </option>
+                        <option value="mexico">
+                            México
+                            <option value="ecuador">
+                            Ecuador
+                    </select>
+                </div>
+                <div>
+                    <label for="comentario">
+                        Deja tu comentario:
+                    </label>
+                    <textarea id="comentario" name="comentario"></textarea>
+                </div>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </main>
+        <img src="./Imágenes/Tingo-Maria-web.png" alt="Imagen de Tingo María" />
+        <a href="https://www.google.com"> 
+            Google 
+        </a>
+        <a href="./about.html">
+            Ir about
+        </a>
+        <footer>
+            Todos los derechos reservados
+        </footer>
     </body>
 </html>
 
